@@ -1,0 +1,62 @@
+body { 
+    background-color: cornsilk; 
+    display: flex;
+    flex: 1;
+    overflow: auto;
+}
+            
+.containerWithBars {
+    background-color: pink;
+    position: fixed;
+    border: 5px solid plum;
+    width: 80%;
+    height: 100%;
+    left: 150px;
+    right: 150px; 
+    overflow: auto;             
+}
+            
+.from-center {
+    background-color: lavenderblush;
+    display: flex;
+    justify-content: center;
+    border: 2px solid plum;
+    padding: 1%;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    left: 4%;  
+    flex: 1;
+    overflow: auto;
+}
+            
+h1 {
+    text-align: center;
+    background-color: linen;
+    padding: 5px;
+}
+            
+h2 {
+    text-align: center;
+    background-color: linen;
+    padding: 5px;
+}
+            
+h3 {
+    text-align: center;
+}
+            
+.buttonCenter {
+    background-color: lavenderblush;
+    display: flex;
+    justify-content: center;
+    border: 5px solid plum;
+    padding: 3%;
+    width: 300px;
+    position: absolute;
+    left: 35%; 
+}
+            
+.register {
+    text-align: center;
+} 
